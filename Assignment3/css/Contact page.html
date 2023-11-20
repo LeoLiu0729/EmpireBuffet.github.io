@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empire Buffet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="CSS%20Style.css">
+</head>
+
+<body>
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+        <img src="https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_70,q_80,fl_lossy,dpr_2.0,c_fit,f_auto,h_70/uoq7hjtaumhi8omvf3mz" alt="Empire Buffet Logo" width="100" height="100" class="d-inline-block align-top">
+
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav custom-navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="About.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Contact page.html">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="darkened-image">
+    <img src="https://images.unsplash.com/photo-1596524430615-b46475ddff6e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80" alt="Contact Image" class="img-fluid">
+</div>
+
+<!-- Contact Form Section -->
+<section class="container mt-5">
+    <h2 class="mb-4">Contact Us</h2>
+    <p>If you have any questions, please fill out the form below:</p>
+    <form action="/submit-contact" method="post">
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-4 mt-5">
+    <div class="container">
+        <div class="mb-3">
+            &copy; 2023 Empire Buffet
+        </div>
+        <div class="mb-3">
+            Follow us on [Social Media Links Here]
+        </div>
+        <hr class="bg-white my-2"> <!-- Divider -->
+        <div class="d-inline-block mr-3">
+            <i class="fas fa-phone-alt"></i>  Phone: 1-888-888-8888 |
+        </div>
+        <div class="d-inline-block">
+            <i class="fas fa-map-marker-alt"></i> Address: 1234,Drive, Greensboro, NC
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

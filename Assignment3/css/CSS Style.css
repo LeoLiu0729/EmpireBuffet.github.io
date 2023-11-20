@@ -1,0 +1,119 @@
+body {
+    background-color: #EAE7DC;
+}
+header {
+    background-image: url(https://images.unsplash.com/photo-1553944384-ffdc4fd8f2fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2942&q=80);
+    background-size: cover;
+    background-position: center center;
+    color: #EAE7DC;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.header-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.header-decorative::after {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 2px;
+    background-color: #EAE7DC;
+    margin: 20px auto 0;
+}
+body {
+    background-color: #EAE7DC;
+}
+
+header {
+    background-image: url(https://images.unsplash.com/photo-1553944384-ffdc4fd8f2fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2942&q=80);
+    background-size: cover;
+    background-position: center center;
+    color: #EAE7DC;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.header-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.header-decorative::after {
+    content: "";
+    display: block;
+    width: 200px;
+    height: 2px;
+    background-color: #EAE7DC;
+    margin: 20px auto 0;
+}
+.navbar-brand, .navbar-collapse {
+    flex-grow: 0;
+}
+.darkened-image {
+    position: relative;
+    max-width: 300px;  /* Adjust this to change the max size of the image */
+    margin: 20px auto;
+}
+
+.darkened-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.darkened-image::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: oldlace(0, 0, 0, 0);
+}
+body {
+    background-color: #EAE7DC;
+}
+
+.featured-dish img {
+    max-width: 80%;
+    height: auto;
+}
+
+.menu-content {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+
+.menu-content h3,
+.menu-content p {
+    margin: 10px 0;
+}
+.Menu-Prices {
+    font-family: "Times New Roman",serif;
+    margin-top: 20px;
+}
+.Menu-Prices h1,
+.Menu-Prices li {
+    margin: 10px 0;
+    font-size: 2.5em;
+}
+.Menu-Prices li {
+    font-size: 1.2em;
+}
+
+.Menu-Prices li strong {
+    font-size: 1.2em;
+}
+.menu-images img {
+    width: 300px;  /* Adjust this value as needed to get the desired size */
+    height: auto;
+    margin-right: 20px;  /* This provides spacing between side-by-side images */
+
+}
